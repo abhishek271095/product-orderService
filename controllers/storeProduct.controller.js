@@ -36,9 +36,6 @@ const product = {
         price: parseInt(price),
       };
       let result = await storeProductService.create(insertData);
-
-      console.log("-----result", result);
-
       response.message = constants.SUCCESS;
       response.statusCode = constants.SUCCESS_STATUS_CODE;
       return res.json(response);
