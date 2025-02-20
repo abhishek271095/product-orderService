@@ -1,0 +1,12 @@
+{
+  "environment": "development",
+  "development": {
+    "MONGODB_CONNECTION_URL": "",
+    "JWT_AUTH_KEY": "jwttokenauthsecretkeykeepthiskeyprivate",
+    "SALT_ROUND": "10",
+    "BEARER_TOKEN_EXPIRY_IN": "2000",
+    "REFRESH_TOKEN_EXPIRY_IN": "2500",
+    "VERIFICATION_TOKEN_EXPIRY_IN": "100",
+    "STRIPE_KEY": "sk_test_51MU2SWEzxeSjcK9g60ihQ8lvzreJejnvegiYf8osQPyUMuyVXKLOgtrIRLXiXWijDFQu5p6IucU7lGvfvGyh4NWI005oxYCixu"
+  }
+}
